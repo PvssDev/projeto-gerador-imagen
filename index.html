@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Imagens IA - Home</title>
+    <title>Bem-vindo ao Gerador de Imagens IA</title>
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
 
     <nav class="navegacao-principal">
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="gerar.html">Gerador</a></li>
             <li><a href="sobre.html">Sobre</a></li>
             <li><a href="contato.html">Contato</a></li>
             <li><a href="galeria.html">Galeria</a></li>
@@ -18,28 +18,45 @@
     </nav>
 
     <header class="cabecalho-destaque">
-        <h1>Desperte Sua Criatividade com IA</h1>
-        <p>Gere imagens com a inteligência artificial.</p>
+        <h1>Transforme palavras em imagens</h1>
+        <p>Sua criatividade não tem limite aqui</p>
     </header>
 
     <main>
-        <section class="secao-gerador">
-            <h2>Gerador de Imagens com Inteligência Artificial</h2>
-            <p>Descreva a imagem que deseja</p>
-            
-            <div class="container-entrada">
-                <textarea id="campo-prompt" name="prompt" placeholder="Ex: um astronauta surfando em um mar de queijo na lua"></textarea>
-                <button id="botao-gerar">Gerar Imagem</button>
-            </div>
+        <section class="secao-introducao">
+            <h2>Bem-vindo</h2>
+            <p>
+               <a href="gerar.html" id="botao-gerar">
+                Comece a Criar Agora!
+            </a>
+            </p>
+        </section>
 
-            <div class="container-exibicao-imagem">
-                <p id="mensagem-carregando" class="escondido">Gerando imagem, aguarde...</p>
-                <p id="mensagem-erro" class="escondido mensagem-erro"></p>
-                <img id="imagem-gerada" class="imagem-gerada escondido" src="#" alt="Imagem Gerada por IA">
-                <div id="espaco-imagem" class="espaco-reservado-imagem">Sua imagem aparecerá aqui</div>
+        <section class="secao-destaques">
+            <h2>O Que Você Pode Fazer?</h2>
+            <p>Veja um pouco do que o site oferece</p>
+
+            <div class="grade-imagens">
+                
+                <div class="item-galeria">
+                    <img src="https://picsum.photos/seed/criar/400/300" alt="Ilustração de criatividade">
+                    <h3>Gere Suas Próprias Imagens</h3>
+                    <p>Vá para nossa página de geração, escreva o que você deseja ver e clique em "Gerar". É simples assim!</p>
+                </div>
+
+                <div class="item-galeria">
+                    <img src="https://picsum.photos/seed/explorar/400/300" alt="Galeria de imagens">
+                    <h3>Explore a Galeria</h3>
+                    <p>Visite nossa galeria para ver as incríveis criações de outros usuários e buscar inspiração para seus próximos projetos.</p>
+                </div>
+
             </div>
         </section>
     </main>
-    
+
+    <footer class="rodape-principal">
+        <p>&copy; 2025 Gerador de Imagens IA. Todos os direitos reservados.</p>
+    </footer>
+
 </body>
 </html>

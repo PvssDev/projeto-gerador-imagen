@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Imagens IA - Home</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+
+    <nav class="navegacao-principal">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </nav>
+
+    <header class="cabecalho-destaque">
+        <h1>Desperte Sua Criatividade com IA</h1>
+        <p>Gere imagens com a inteligência artificial.</p>
+    </header>
+
+    <main>
+        <section class="secao-gerador">
+            <h2>Gerador de Imagens com Inteligência Artificial</h2>
+            <p>Descreva a imagem que deseja</p>
+            
+            <div class="container-entrada">
+                <textarea id="campo-prompt" name="prompt" placeholder="Ex: um astronauta surfando em um mar de queijo na lua"></textarea>
+                <button id="botao-gerar">Gerar Imagem</button>
+            </div>
+
+            <div class="container-exibicao-imagem">
+                <p id="mensagem-carregando" class="escondido">Gerando imagem, aguarde...</p>
+                <p id="mensagem-erro" class="escondido mensagem-erro"></p>
+                <img id="imagem-gerada" class="imagem-gerada escondido" src="#" alt="Imagem Gerada por IA">
+                <div id="espaco-imagem" class="espaco-reservado-imagem">Sua imagem aparecerá aqui</div>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
